@@ -1,0 +1,344 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/on_boarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/on_boarding">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frame_1211"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <!-- Frame 2 -->
+            <ImageView
+                android:id="@+id/frame_2"
+                android:layout_width="207.5dp"
+                android:layout_height="207.5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_image"
+                app:layout_constraintBottom_toTopOf="@+id/log_in"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <!-- Log In TextView -->
+
+            <!-- Please Sign TextView -->
+
+            <!-- Email Body -->
+
+            <TextView
+                android:id="@+id/log_in"
+                android:layout_width="85dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:gravity="top"
+                android:text="@string/lbl_log_in"
+                android:textAppearance="@style/log_in"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frame_2" />
+
+            <TextView
+                android:id="@+id/send_to"
+                android:layout_width="203dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:text="@string/msg_please_sign_in_to"
+                android:textAppearance="@style/login_text_great"
+                android:textColor="#9A9595"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/log_in" />
+
+            <LinearLayout
+                android:id="@+id/email_body"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/send_to">
+
+                <ImageView
+                    android:id="@+id/email_icon"
+                    android:layout_width="22dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/email_icon_2" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/lbl_email2"
+                    android:textAppearance="@style/email"
+                    android:textColor="#9A9595"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Line 9 -->
+            <View
+                android:id="@+id/line_9"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/login_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/email_body" />
+
+            <!-- Password Body -->
+            <LinearLayout
+                android:id="@+id/password_body"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_9">
+
+                <ImageView
+                    android:id="@+id/password_logo"
+                    android:layout_width="22dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/lock" />
+
+                <EditText
+                    android:id="@+id/password_text"
+                    android:layout_width="229dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/lbl_password2"
+                    android:inputType="textPassword"
+                    android:textAppearance="@style/email"
+                    android:textColor="#9A9595"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/show_password_icon"
+                    android:layout_width="22dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/show" />
+            </LinearLayout>
+
+            <!-- Line 10 -->
+            <View
+                android:id="@+id/line_10"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/login_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/password_body" />
+
+            <!-- Log Button -->
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/login_drawable"
+                android:gravity="center"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textAppearance="@style/next"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/line_10" />
+
+            <!-- Forgot Password TextView -->
+
+            <!-- Or Sign In With -->
+            <LinearLayout
+                android:id="@+id/forgot_pass_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/login_button">
+
+                <TextView
+                    android:id="@+id/forgot_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="@string/lbl_forgot_password"
+                    android:textAppearance="@style/sign_up"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/frame_1204"
+                android:layout_width="0dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/forgot_pass_layout">
+
+                <View
+                    android:id="@+id/line_1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_100_line" />
+
+                <TextView
+                    android:id="@+id/or_use_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_or_sign_in_with"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/line_2"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_100_line" />
+            </LinearLayout>
+
+            <!-- Social Media Login -->
+            <LinearLayout
+                android:id="@+id/frame_19"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frame_1204">
+
+                <ImageView
+                    android:id="@+id/image_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/image_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/google_icon" />
+            </LinearLayout>
+
+            <!-- Don't Have Account -->
+            <LinearLayout
+                android:id="@+id/frame_1205"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frame_19">
+
+                <TextView
+                    android:id="@+id/dont_have_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_don_t_have_an_account"
+                    android:textAppearance="@style/sign_up"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/sign_up_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/lbl_sign_up"
+                    android:textAppearance="@style/sign_up"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/progress_overlay"
+            android:layout_width="408dp"
+            android:layout_height="747dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:visibility="gone"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- ProgressBar -->
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/green_500"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

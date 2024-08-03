@@ -1,0 +1,116 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/on_boarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/on_boarding">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frame_1211"
+            android:layout_width="319dp"
+            android:layout_height="554dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <!-- Frame 2 -->
+            <ImageView
+                android:id="@+id/frame_2"
+                android:layout_width="207.5dp"
+                android:layout_height="207.5dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/reset_password_image"
+                app:layout_constraintBottom_toTopOf="@+id/log_in"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <!-- Log In TextView -->
+
+            <!-- Please Sign TextView -->
+
+            <!-- Email Body -->
+
+            <TextView
+                android:id="@+id/log_in"
+                android:layout_width="298dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:gravity="top"
+                android:text="Send OTP"
+                android:textAppearance="@style/log_in"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frame_2" />
+
+            <TextView
+                android:id="@+id/send_to"
+                android:layout_width="295dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:gravity="top"
+                android:text="An OTP code will been send to your email account"
+                android:textAppearance="@style/login_text_great"
+                android:textColor="#9A9595"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/log_in" />
+
+
+            <!-- Log Button -->
+            <Button
+                android:id="@+id/send_otp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/login_drawable"
+                android:gravity="center"
+                android:text="Send OTP"
+                android:textAlignment="center"
+                android:textAppearance="@style/next"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/send_to" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:id="@+id/progress_overlay"
+            android:layout_width="412dp"
+            android:layout_height="973dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!-- ProgressBar -->
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/green_500" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

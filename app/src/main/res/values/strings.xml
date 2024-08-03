@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">steven_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="msg_write_something">write something here.</string>
+    <string name="lbl_60">60</string>
+    <string name="lbl_heat">Heat</string>
+    <string name="msg_identify_the_plant">Identify the plant</string>
+    <string name="lbl_back">Back</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_62">62</string>
+    <string name="lbl_039828288282">+039828288282</string>
+    <string name="msg_having_a_problem">Having a Problem?</string>
+    <string name="lbl2">%</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_rust">Rust</string>
+    <string name="msg_don_t_have_an_account">Don\u2019t have an account?</string>
+    <string name="lbl_first_name">First Name</string>
+    <string name="msg_already_have_an">Already have an account?</string>
+    <string name="msg_verify_code_sent">Verify code sent</string>
+    <string name="lbl_wheat">Wheat</string>
+    <string name="lbl_description">Description</string>
+    <string name="msg_el_mansoura_el">El Mansoura, El Dakahlia, Egypt</string>
+    <string name="lbl_evftbyvvcd">evFTbyVVCd</string>
+    <string name="lbl_almost_complete">Almost complete</string>
+    <string name="msg_lorem_ipsum_dolor2">Lorem ipsum dolor sit amet, consectetur adipiscing elitdolor sit amet, consectetur adipiscing elit.  </string>
+    <string name="lbl_help_center">Help Center</string>
+    <string name="lbl_new_password">New Password</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="msg_confirm_password">Confirm password</string>
+    <string name="lbl_off">OFF</string>
+    <string name="lbl_password2">Password</string>
+    <string name="msg_are_you_sure_you">Are You Sure you want to logout? </string>
+    <string name="msg_wheat_is_mainly">Wheat is mainly composed of carbs but also has moderate amounts of protein.Here are the nutrition facts for 3.5 ounces (100 grams) of whole-grain wheat flour:Calories: 340Water: 11%Protein: 13.2 gramsCarbs: 72 gramsSugar: 0.4 gramsFiber: 10.7 gramsFat: 2.5 grams</string>
+    <string name="lbl_egypt_mansora">Egypt, Mansora</string>
+    <string name="msg_alimohamed_gmail_com">alimohamed@gmail.com</string>
+    <string name="msg_enter_4_digits_code">Enter 4-digits code sent to you at +02 335 897 680 648</string>
+    <string name="msg_diseases_in_your">Diseases in your crop:</string>
+    <string name="lbl_log_out">Log Out</string>
+    <string name="lbl_w1">w1</string>
+    <string name="lbl_28_nitrogen">%28 Nitrogen</string>
+    <string name="lbl_soil_status">Soil Status</string>
+    <string name="lbl_w4">w4</string>
+    <string name="lbl_w2">w2</string>
+    <string name="lbl_50">50</string>
+    <string name="lbl_w3">w3</string>
+    <string name="msg_wheat_is_a_highly">Wheat is a highly nutritional and widely-cultivated cereal grain. For over 7 centuries, wheat has been raised and harvested in many countries around the world. It\u2019s one of the world\u2019s most important crops and holds the title of the second most-produced grain in the world, beaten only by corn.</string>
+    <string name="lbl_1m_ago">1m ago.</string>
+    <string name="msg_our_project_can">our project can detect plant and soil diseases using an existing camera sensor that tracks the plants in real-time day by day.</string>
+    <string name="lbl_dec_20_2022">Dec 20, 2022</string>
+    <string name="lbl_notifications">Notifications</string>
+    <string name="msg_your_account_is">Your Account is ready to use . You willbe redirected to the Home page in a few seconds. </string>
+    <string name="lbl_logout2">Logout</string>
+    <string name="lbl_48_potassium">%48 potassium</string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_this_week">This week</string>
+    <string name="lbl_normal">normal</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_water_level">Water Level</string>
+    <string name="lbl_select">Select</string>
+    <string name="msg_nutritional_benefits">Nutritional benefits</string>
+    <string name="lbl_diseases2">DISEASES</string>
+    <string name="lbl_consultant">Consultant</string>
+    <string name="lbl_cloudy">Cloudy</string>
+    <string name="msg_the_most_appropriate">The most appropriate date in the Delta and Lower Egypt is from 15-30 November.&#13;And the delay in this date causes a decrease in the crop at a rate of at least 25 % as a result of the high temperatures in the last growth stages.&#13; Early, leads to a lack of crop due to low contract rates and the fullness of pills.</string>
+    <string name="msg_diagnose_diseases">Diagnose Diseases</string>
+    <string name="lbl_h_32_l_27">H:32°   L:27°</string>
+    <string name="lbl_40">40</string>
+    <string name="lbl_or_sign_up_with">or sign up with</string>
+    <string name="lbl_45">45</string>
+    <string name="lbl_last_name">Last Name</string>
+    <string name="lbl_my_account">My Account</string>
+    <string name="lbl_scan_your_crop">Scan your crop </string>
+    <string name="lbl_high">high</string>
+    <string name="lbl_weeds">Weeds</string>
+    <string name="msg_your_plant_is_disease">Your plant is disease free  </string>
+    <string name="lbl_00_60_sec">00:60 sec</string>
+    <string name="msg_terms_and_condition">Terms and condition</string>
+    <string name="msg_early_detection">Early detection of plant          and soil diseases </string>
+    <string name="msg_we_will_use_satellite">we will use satellite imagery, image processing, deep learning, computer vision, and remote sensing to detect       changes in the field and crops and solve the problems whenever they pop.</string>
+    <string name="lbl_120">120</string>
+    <string name="msg_satellite_monitoring">Satellite Monitoring</string>
+    <string name="lbl_30">30%</string>
+    <string name="lbl_yes_logout">Yes, Logout</string>
+    <string name="lbl_my_fields">My Fields</string>
+    <string name="lbl_verify_code">verify code</string>
+    <string name="msg_posifolia_fusiformis">Posifolia fusiformis</string>
+    <string name="lbl_32">32</string>
+    <string name="lbl_password">password</string>
+    <string name="lbl_ali_mohamed">Ali Mohamed</string>
+    <string name="lbl_rate_us">Rate Us</string>
+    <string name="msg_we_re_on_a_mission">"We're on a mission to make renting the new black, by providing seamless comfort with affordable pricing.&#13;&#13;With us, you can rent a wide range of well-conditioned vehicles, like, SUVs, MUVs, sedans, vintage cars and chariots at very affordable prices."</string>
+    <string name="lbl_about_us2">About us</string>
+    <string name="msg_copyright_crobit">copyright Crobit team </string>
+    <string name="msg_please_select_your">Please, Select your field.</string>
+    <string name="msg_please_sign_in_to">please sign in to continue</string>
+    <string name="lbl_14987889999">+14987889999</string>
+    <string name="msg_to_unlock_this_feature">To unlock this feature.....</string>
+    <string name="lbl_field3">Field3</string>
+    <string name="lbl_field1">Field1</string>
+    <string name="lbl_field2">Field2</string>
+    <string name="msg_suitable_solutions">Suitable Solutions</string>
+    <string name="lbl_20">20</string>
+    <string name="lbl_complete">Complete</string>
+    <string name="msg_h_32_l_27_egypt">H:32°   L:27°Egypt, Mansora</string>
+    <string name="lbl_basic_rates">Basic Rates</string>
+    <string name="msg_irrigation_control">Irrigation Control</string>
+    <string name="lbl_22">2</string>
+    <string name="lbl_25">25</string>
+    <string name="msg_this_platform_can">"This Platform Can Let The User Recognize The Regarding Nearest Location Wherever They'll Park Their Vehicles,&#13;&#13;It'll Let The User Comprehend Their Favorite Fuel Station And Their Name, Eventually It'll Let The User Comprehend The Place From Wherever They'll Get Their Flat Tyres Repaired"</string>
+    <string name="lbl_diagnose">Diagnose</string>
+    <string name="lbl_send_link">Send Link</string>
+    <string name="lbl_100">100</string>
+    <string name="msg_mit_ghamer_el_dakahlia">Mit Ghamer, El Dakahlia, Egypt</string>
+    <string name="lbl_29">29°</string>
+    <string name="msg_ask_for_anything">Ask for anything you want</string>
+    <string name="msg_is_a_grass_widely"> is a grass widely cultivated for its seed, a cereal grain that is a worldwide staple food.</string>
+    <string name="lbl_apr_20_2022">Apr 20, 2022</string>
+    <string name="lbl_humidity">Humidity</string>
+    <string name="lbl_empty">Empty </string>
+    <string name="lbl_email2">Email </string>
+    <string name="lbl_log_in">Login</string>
+    <string name="lbl_about_us">About Us</string>
+    <string name="lbl_about_wheat">About Wheat </string>
+    <string name="msg_your_plant_is_disease2">Your plant is disease                     free </string>
+    <string name="lbl_90">90</string>
+    <string name="lbl_sign_up">SignUp</string>
+    <string name="msg_lorem_ipsum_dolor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos illo cupiditate, placeat odit dicta similique expedita enim in suscipit, tenetur hic aliquam ad fugiat quaerat,illum deserunt dolor dignissimos tenetur hic aliquam ad fugiat quaerat, illum deserunt dolor dignissimos.</string>
+    <string name="lbl_sign_up2">sign up</string>
+    <string name="lbl_skip">Skip</string>
+    <string name="lbl_privacy_policy">Privacy Policy</string>
+    <string name="msg_create_an_account">create an account to continue</string>
+    <string name="lbl_read_more">Read More</string>
+    <string name="lbl_help_support">Help &amp; Support</string>
+    <string name="lbl">........</string>
+    <string name="lbl_save">Save</string>
+    <string name="msg_congratulations">Congratulations!</string>
+    <string name="lbl_done">Done</string>
+    <string name="msg_enter_the_email">"Enter the email address you used when you joined and we'll send you instructions to reset your password."</string>
+    <string name="msg_improve_agriculture">Improve agriculture             precision</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_log_in2">Log In</string>
+    <string name="lbl_80">80</string>
+    <string name="lbl_salts">Salts</string>
+    <string name="lbl_0">0</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_send_again">Send Again</string>
+    <string name="msg_you_don_t_have_any">You don\u2019t have any notification at this time.         </string>
+    <string name="msg_monitoring_your">Monitoring your crop </string>
+    <string name="lbl_or_sign_in_with">or sign in with</string>
+    <string name="lbl_change_picture">Change Picture</string>
+    <string name="msg_wheat_is_a_grass">Wheat is a grass widely cultivated for its seed, a cereal grain that is a worldwide staple food.Wheat is a highly nutritional and widely-cultivated cereal grain. For over 7 centuries, wheat has been raised and harvested in many countries around the world. It\u2019s one of the world\u2019s most important crops and holds the title of the second most-produced grain in the world, beaten only by corn.</string>
+    <string name="lbl_202">20%</string>
+    <string name="msg_select_your_crop">Select your crop</string>
+    <string name="lbl_602">60%</string>
+    <string name="msg_control_and_save">Control and save water</string>
+    <string name="lbl_white_spikes">White Spikes</string>
+    <string name="lbl_good_news">Good News</string>
+    <string name="lbl_main_features">Main Features</string>
+    <string name="lbl_diseases">Diseases</string>
+    <string name="msg_we_aim_to_use_optical">we aim to use optical (VIR) sensing to observe the fields and make timely crop management decisions.</string>
+    <string name="lbl_70">70</string>
+    <string name="lbl_prevention">Prevention</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+    <string name="msg_create_new_password">Create New Password</string>
+    <string name="lbl_aug_20_2022">Aug 20, 2022</string>
+    <string name="msg_monitoring_soil">Monitoring soil and           plant   </string>
+    <string name="msg_enter_new_password">Enter New Password</string>
+    <string name="msg_confirm_new_password">Confirm New password</string>
+    <string name="msg_diagnose_your_crop">Diagnose your crop</string>
+    <string name="lbl_symptoms">Symptoms</string>
+    <string name="lbl_on">ON</string>
+    <string name="lbl_update">Update</string>
+    <string name="msg_follow_your_soil">Follow your soil status</string>
+    <string name="lbl_10_hrs_ago">10 Hrs ago..</string>
+    <string name="lbl_planting_time">Planting time</string>
+    <string name="lbl_scan_crop">Scan Crop</string>
+    <string name="lbl_add_crop">Add Crop</string>
+    <string name="msg_terms_conditions">Terms &amp; Conditions</string>
+    <string name="lbl_24_phosphorous">%24 phosphorous&#13;</string>
+    <string name="your_accoun">Your Account is ready to use . You will\nbe redirected to the Home page in a few seconds.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="crop_diagonistic">crop diagonistic</string>
+    <string name="chaplain_mo">
+Ali Mohamed
+</string>
+    <string name="some_id_2">
++039828288282
+</string>
+    <string name="some_id">
+29°
+</string>
+    <string name="h_32_l_27_e">
+H:32°   L:27°\nEgypt, Mansora
+</string>
+</resources>

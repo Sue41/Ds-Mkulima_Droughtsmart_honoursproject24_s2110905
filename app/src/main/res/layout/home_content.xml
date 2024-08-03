@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeContent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/on_boarding"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@drawable/on_boarding">
+
+        <RelativeLayout
+            android:id="@+id/delhi_parent"
+            android:layout_width="347dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/delhi"
+                android:layout_width="345dp"
+                android:layout_height="160dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="39dp"
+                android:background="@drawable/home_top_back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tempature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center_horizontal|top"
+                    android:lineSpacingExtra="-13sp"
+                    android:text="@string/some_id"
+                    android:textAppearance="@style/some_id" />
+
+                <TextView
+                    android:id="@+id/h_32_l_27_e"
+                    android:layout_width="75dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="120dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="48sp"
+                    android:text="@string/h_32_l_27_e"
+                    android:textAppearance="@style/h_32_l_27_e"
+                    android:translationY="-23.75sp" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="96dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="140dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="48sp"
+                    android:text="Nairobi Kenya"
+                    android:textColor="@color/white"
+
+                    android:translationY="-23.75sp" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/condition"
+                android:layout_width="146dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:id="@+id/condition_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/condition"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="-55dp"
+                android:text="cloudy"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/addcrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/addcropdrawable"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/delhi_parent">
+
+            <!-- First Layout -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/addcrop"
+                >
+
+                <ImageView
+                    android:layout_width="36.5dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/addcrop"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Add Crop"
+                    />
+
+                <!-- Contents of the first layout -->
+
+            </LinearLayout>
+
+            <!-- Flexible space -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Second Layout -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="3dp"
+                android:background="@drawable/arrowbuttondrawable"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="20dp"
+                    android:src="@drawable/arrowleft"
+                    />
+
+                <!-- Contents of the second layout -->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contentlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addcrop">
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/recycler_view"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent" />-->
+
+            <!-- res/layout/item_view.xml -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- First item -->
+                <LinearLayout
+                    android:id="@+id/diagonise"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/featuresdrawable"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/diagoniseimage"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/diagoniseicon" />
+
+                    <TextView
+                        android:id="@+id/diagonise_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Check the best plant for you"
+                        android:textColor="@color/green_500"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/diagonise_button_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/featurebuttondrawable"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/diagonise_button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Check Suggestion"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/diagonise_button_icon_container"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:contextClickable="true"
+                            android:focusableInTouchMode="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/arrowbuttondrawable"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <ImageView
+                                android:id="@+id/diagonise_button_icon"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:layout_width="19dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/arrowleft" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Flexible space -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1" />
+
+                <!-- Second item -->
+                <LinearLayout
+                    android:id="@+id/soilstatus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/featuresdrawable"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/soil_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/soilicon" />
+
+                    <TextView
+                        android:id="@+id/soil_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Follow your soil status"
+                        android:textColor="@color/green_500"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/soil_button_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/featurebuttondrawable"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/soil_button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Soil Status"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/soil_button_icon_container"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/arrowbuttondrawable"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <ImageView
+                                android:id="@+id/soil_button_icon"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/arrowleft" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- res/layout/item_view.xml -->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- First item -->
+                <LinearLayout
+                    android:id="@+id/irrigation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/featuresdrawable"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/irrigation_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/irrigationicon2" />
+
+                    <TextView
+                        android:id="@+id/irrigation_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Control and save water"
+                        android:textColor="@color/green_500"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/irrigation_button_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/featurebuttondrawable"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/irrigation_button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Irrigation Control"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/irrigation_button_icon_container"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/arrowbuttondrawable"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <ImageView
+                                android:id="@+id/irrigation_button_icon"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/arrowleft" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Flexible space -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1" />
+
+                <!-- Second item -->
+                <LinearLayout
+                    android:id="@+id/consult"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/featuresdrawable"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/consult_image"
+                        android:layout_width="70dp"
+                        android:background="@drawable/consulticon"
+                        android:layout_height="70dp" />
+
+                    <TextView
+                        android:id="@+id/consult_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Ask for anything you want"
+                        android:textColor="@color/green_500"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/consult_button_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/featurebuttondrawable"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/consult_button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Consult"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/consult_button_icon_container"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/arrowbuttondrawable"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <ImageView
+                                android:id="@+id/consult_button_icon"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/arrowleft" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- res/layout/item_view.xml -->
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <!-- First item -->
+                <LinearLayout
+                    android:id="@+id/scan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/featuresdrawable"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/scan_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/scancropicon" />
+
+                    <TextView
+                        android:id="@+id/scan_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Scan your crop "
+                        android:textColor="@color/green_500"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/scan_button_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/featurebuttondrawable"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/scan_button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Scan Crop"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/scan_button_icon_container"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/arrowbuttondrawable"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="2dp">
+
+                            <ImageView
+                                android:id="@+id/scan_button_icon"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/arrowleft" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Flexible space -->
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1" />
+
+                <!-- Second item -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757765549636",
+    "project_id": "ds-mkulima--droughtsmart",
+    "storage_bucket": "ds-mkulima--droughtsmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757765549636:android:7e16fcd7c6170cd51c1611",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ddGCZWtNd4RPUyJ4YYGWJF1KWsccXXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

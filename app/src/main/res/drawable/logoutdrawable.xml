@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="414dp"
+    android:height="223dp"
+    android:viewportWidth="414"
+    android:viewportHeight="223">
+    <group>
+        <!-- Background path with rounded top corners -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,0 H389 A25,25 0 0 1 414,25 V208 H0 V25 A25,25 0 0 1 25,0 Z" />
+    </group>
+</vector>

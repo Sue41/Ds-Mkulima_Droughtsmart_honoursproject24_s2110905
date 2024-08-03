@@ -1,0 +1,76 @@
+//plugins {
+//    id 'com.android.application'
+//}
+apply plugin: 'com.android.application'
+android {
+    namespace 'com.example.myapplication'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.myapplication"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+
+    }
+    packaging {
+        resources {
+            excludes += '/META-INF/NOTICE.md'
+            excludes += '/META-INF/LICENSE.md'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+        mlModelBinding true
+    }
+}
+
+dependencies {
+    // Firebase BOM
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+
+
+    // Firebase dependencies using the BOM
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // JavaMail API
+    implementation 'com.sun.mail:android-mail:1.6.7'
+    implementation 'com.sun.mail:android-activation:1.6.7'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.github.orbitalsonic:Water-Wave-Animation-Android:1.0.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.7.7'
+    implementation 'androidx.navigation:navigation-ui:2.7.7'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+}
+apply plugin: 'com.google.gms.google-services'
